@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-bottom: 300px;
+}
+
+.logo {
+  width: 48px;
+}
+
+.carruselImg {
+  height: 400px;
+  object-fit: cover;
+}
+
+.color-btn {
+    background-color: #ff6b35;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.color-btn:hover {
+    background-color: #ff3b00;
+}
+
+h1 {
+  margin-top: 3%;
+  text-align: center;
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6em;
+  color: rgb(229, 114, 20);
+}
+
+h3 {
+  text-align: center;
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+  color: rgb(229, 114, 20);
+}
+
+h1,
+h3 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.register-btn {
+  background-color: #ff6b35;
+  color: #fff;
+  padding: 15px 40px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.register-btn:hover {
+  background-color: #ff3b00;
+}
+
+.form-container {
+  margin-top: 40px;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+footer {
+    background-color: #1c1c1c; /* Color oscuro para diferenciarlo del fondo */
+    color: #f0f0f0;
+    /* padding: 30px 0; */
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+
+footer a {
+    color: #ff6b35;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ff3b00;
+}
+
+.footer-social-icons {
+    margin-top: 10px;
+}
+
+.footer-social-icons a {
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-social-icons a:hover {
+    color: #ff6b35;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
